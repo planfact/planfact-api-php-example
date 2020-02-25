@@ -11,6 +11,7 @@ $data = [
     "accountId"=> null, //id счёта ОБЯЗАТЕЛЬНО ПОЛЕ!
     "comment"=> "",
     "isCommitted"=> false,
+    "value"=> null, //общяая сумма операций ОБЯЗАТЕЛЬНОЕ ПОЛЕ!
     "items" => array([
         "calculationDate"=> "2020-02-18", //ОБЯЗАТЕЛЬНО ПОЛЕ!
         "isCalculationCommitted"=> false,
